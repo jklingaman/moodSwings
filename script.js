@@ -1,3 +1,4 @@
+
 document.getElementById("checkButton").addEventListener("click", function() {
     const input = document.getElementById("textBox").value.trim();
     const response = document.getElementById("response");
