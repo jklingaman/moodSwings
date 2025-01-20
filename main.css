@@ -44,3 +44,15 @@ button {
     height: 100px;
     font-size: 24px;
 }
+div {
+    text-align: center;
+    margin: 25px;
+}
+a {
+    text-decoration: none;
+    color: #00f2ec;
+}
+a:hover {
+    color: #0096f2;
+    transition: 0.3s;
+}

@@ -15,7 +15,8 @@ document.getElementById("checkButton").addEventListener("click", function() {
         itsAToneThingForMe: 'That shit is made up so that you can have a reason to be mad. Stop trying to gaslight me!!!',
         noisy: 'ShUt ThE hElL uP!',
         silly: 'FUUUUUUUUUUUUCK you :)',
-        depressed: 'You are the love of my fucking life baby girl you are the greatest thing that has ever happened to me, you make bad days better and good days amazing. thank you for being the light of my life!'
+        depressed: 'You are the love of my fucking life baby girl you are the greatest thing that has ever happened to me, you make bad days better and good days amazing. thank you for being the light of my life!',
+        horny: 'if you just typed this and were far away still, show me how horny. ;) If you clicked this and we are together start walking towards me and taking your clothes off. Or come whisper it in my ear or some shit if its a public setting ill get it taken care of for you baby girl. ;)'
       };
       if (responses[mood]){    
         return responses[mood];
