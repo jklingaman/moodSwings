@@ -14,7 +14,7 @@ body {
 }
 #mainDiv {
  margin-top: auto;
- margin-bottom: 20px;
+ margin-bottom: 30px;
  display: flex;
  justify-content: center;
  gap: 10px;
@@ -32,4 +32,15 @@ body {
 }
 p {
     font-size: 48px;
+}
+input {
+    text-align: center;
+    width: 250px;
+    height: 94px;
+    font-size: 28px;
+}
+button {
+    width: 150px;
+    height: 100px;
+    font-size: 24px;
 }
