@@ -1,1 +1,1 @@
-I created this as a way to interact with my girlfriend while I am workinng.
+I created this as a simple way to interact with my girlfriend while I am working.
