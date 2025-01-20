@@ -1,0 +1,35 @@
+body {
+    background-color: darkorchid;
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Metamorphous;
+}
+#gridDiv {
+    display: grid;
+    grid-template-rows: 1fr auto; 
+    height: 100vh;
+}
+#mainDiv {
+ margin-top: auto;
+ margin-bottom: 20px;
+ display: flex;
+ justify-content: center;
+ gap: 10px;
+}
+#responseDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;  
+    padding-left: 50px;  
+    padding-right: 50px; 
+    margin-bottom: 10px;
+    box-sizing: border-box; 
+}
+p {
+    font-size: 48px;
+}
