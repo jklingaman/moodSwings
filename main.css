@@ -16,6 +16,7 @@ body {
     max-width: 600px;
     margin: 0 auto; 
     padding: 20px;
+    flex-grow: 1;
 }
 #mainDiv {
  margin-top: auto;
@@ -25,7 +26,7 @@ body {
  gap: 10px;
 }
 #responseDiv {
-    margin: 10px auto;
+    margin: 0px auto;
     text-align: center; 
     width: 100%; 
     max-width: 400px;
@@ -61,20 +62,49 @@ a:hover {
     transition: 0.3s;
 }
 #moodsList {
-    max-height: 600px;
+    max-height: 100px;
     overflow-y: auto;
     padding: 10px;
+    margin-top: 20px;
     margin-bottom: 20px; 
     border: 1px solid #ccc;
     border-radius: 10px; 
     background-color: #f9f9f9; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     width: 100%; 
-    max-width: 400px; 
+    max-width: 600px; 
     text-align: center; 
+    justify-content: center;
     font-family: 'Metamorphous', serif;
-    font-size: 1em;
+    font-size: 4vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 #moodsList p {
     font-size: 2vh;
+    width: 48%;  
+    box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+    #gridDiv {
+        flex-direction: column;
+        padding-left: 100px;
+        padding-right: 25px;
+    }
+
+    /* Move the #moodsList to the top by using order */
+    #moodsList {
+        
+        max-height: 75px;
+        padding: 10px;
+        font-size: 4vh;
+        background-color: lightyellow; /* Temporarily change color for visibility */
+        width: 100%;
+    }
+
+    button {
+        height: 8.5vh;
+    }
 }
