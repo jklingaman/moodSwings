@@ -93,17 +93,12 @@ a:hover {
         padding-left: 100px;
         padding-right: 25px;
     }
-
-    /* Move the #moodsList to the top by using order */
     #moodsList {
-        
         max-height: 75px;
         padding: 10px;
         font-size: 4vh;
-        background-color: lightyellow; /* Temporarily change color for visibility */
         width: 100%;
     }
-
     button {
         height: 8.5vh;
     }
