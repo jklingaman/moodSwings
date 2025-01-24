@@ -29,10 +29,11 @@ body {
     margin: 0px auto;
     text-align: center; 
     width: 100%; 
-    max-width: 400px;
+    max-width: 600px;
     max-height: 450px;
     overflow-y: auto;
     padding: 15px; 
+    padding-top: 50px;
 }
 p {
     font-size: 5vh;
@@ -46,7 +47,7 @@ input {
 button {
     width: 150px;
     height: 8vh;
-    font-size: 24px;
+    font-size: 3vh;
 }
 div {
     text-align: center;
